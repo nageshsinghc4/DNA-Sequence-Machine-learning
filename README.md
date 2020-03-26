@@ -6,4 +6,4 @@ So here, we will understand DNA structure and how machine learning can be used t
 
 For more details, please follow this medium article:
 
-https://medium.com/@nageshsinghchauhan/demystify-dna-sequencing-with-machine-learning-and-python-bdbaeb177f56
+https://medium.com/analytics-vidhya/demystify-dna-sequencing-with-machine-learning-and-python-bdbaeb177f56
