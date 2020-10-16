@@ -8,3 +8,7 @@ As a data-driven science, genomics extensively utilizes machine learning to capt
 
 So here, we will understand DNA structure and how machine learning can be used to work with DNA sequence data.
 
+Pre requisits:
+
+1. Biopython :is a collection of python modules that provide functions to deal with DNA, RNA & protein sequence.
+```pip install biopython```
