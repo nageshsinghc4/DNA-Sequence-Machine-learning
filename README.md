@@ -10,5 +10,16 @@ So here, we will understand DNA structure and how machine learning can be used t
 
 Pre requisits:
 
-1. Biopython :is a collection of python modules that provide functions to deal with DNA, RNA & protein sequence.
+1. **Biopython** :is a collection of python modules that provide functions to deal with DNA, RNA & protein sequence.
+
 ```pip install biopython```
+
+2. **Squiggle** : a software tool that automatically generates interactive web-based two-dimensional graphical representations of raw DNA sequences.
+
+```pip install Squiggle```
+
+DNA sequence data usually are contained in a file format called “fasta” format. Fasta format is simply a single line prefixed by the greater than symbol that contains annotations and another line that contains the sequence:
+
+***“AAGGTGAGTGAAATCTCAACACGAGTATGGTTCTGAGAGTAGCTCTGTAACTCTGAGG”***
+
+In this repository we are building a classification model that is trained on the human DNA sequence and can predict a gene family based on the DNA sequence of the coding sequence. To test the model, we will use the DNA sequence of humans, dogs, and chimpanzees and compare the accuracies.
