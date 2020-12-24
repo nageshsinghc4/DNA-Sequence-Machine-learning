@@ -24,4 +24,4 @@ DNA sequence data usually are contained in a file format called “fasta” form
 
 In this repository, we are building a classification model that is trained on the human DNA sequence and can predict a gene family based on the DNA sequence of the coding sequence. To test the model, we will use the DNA sequence of humans, dogs, and chimpanzees and compare the accuracies.
 
-You can read this article to understand the project step by step from [here](https://www.theaidream.com/post/demystify-dna-sequencing-with-machine-learning-and-python).
+You can read this article to understand the project step by step from [www.theaidream.com](https://www.theaidream.com/post/demystify-dna-sequencing-with-machine-learning-and-python).
