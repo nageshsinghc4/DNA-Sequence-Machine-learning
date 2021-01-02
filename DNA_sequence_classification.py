@@ -2,15 +2,15 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-%matplotlib inline  
+#matplotlib inline  
 
-human_dna = pd.read_table('./drive/My Drive/human_data.txt')
+human_dna = pd.read_table('human_data.txt')
 human_dna.head()
 
-chimp_dna = pd.read_table('./drive/My Drive/chimp_data.txt')
+chimp_dna = pd.read_table('chimp_data.txt')
 chimp_dna.head()
 
-dog_dna = pd.read_table('./drive/My Drive/dog_data.txt')
+dog_dna = pd.read_table('dog_data.txt')
 dog_dna.head()
 
 
@@ -89,7 +89,7 @@ X_train, X_test, y_train, y_test = train_test_split(X,
 print(X_train.shape)
 print(X_test.shape)
 
-A multinomial naive Bayes classifier will be created. I previously did some parameter tuning and found the ngram size of 4 (reflected in the Countvectorizer() instance) and a model alpha of 0.1 did the best. Just to keep it simple I won't show that code here.
+#A multinomial naive Bayes classifier will be created. I previously did some parameter tuning and found the ngram size of 4 (reflected in the Countvectorizer() instance) and a model alpha of 0.1 did the best. Just to keep it simple I won't show that code here.
 
 ### Multinomial Naive Bayes Classifier ###
 # The alpha parameter was determined by grid search previously
@@ -120,7 +120,7 @@ print("accuracy = %.3f \nprecision = %.3f \nrecall = %.3f \nf1 = %.3f" % (accura
 """
 Now for the real test. Let's see how our model perfoms on the DNA sequences from other species. First we'll try the Chimpanzee, which we would expect to be very similar to human. Then we will try man's (and woman's) best friend, the Dog DNA sequences.
 """
-Make predictions for the Chimp and dog sequences¶
+#Make predictions for the Chimp and dog sequences¶
 
 # Predicting the chimp, dog and worm sequences
 y_pred_chimp = classifier.predict(X_chimp)
