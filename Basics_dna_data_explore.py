@@ -2,7 +2,7 @@
 #data : https://www.kaggle.com/thomasnelson/examplefasta
 
 from Bio import SeqIO
-for sequence in SeqIO.parse('./drive/My Drive/example.fa', "fasta"):
+for sequence in SeqIO.parse('example.fa', "fasta"):
     print(sequence.id)
     print(sequence.seq)
     print(len(sequence))
